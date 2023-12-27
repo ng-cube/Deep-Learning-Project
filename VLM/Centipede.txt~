@@ -1,0 +1,37 @@
+Game Objective:
+The purpose of the game is to score as many points as possible by using magic wands to eliminate the Centipede and other creatures while avoiding being bitten and paralyzed.
+
+Relevant Objects & Mechanics:
+    Magic Wand: Player's tool for eliminating creatures. Unlimited use, controlled by the joystick, and sparks are shot by pressing the fire button. You start with three wands, and can gain up to seven by scoring points.
+    Centipede: The main adversary, composed of segments. Moves from the top of the screen downwards, changing direction upon hitting mushrooms or screen edges. Shooting segments turns them into mushrooms; shooting the head splits the centipede and creates a new head from the next segment.
+    Mushrooms: Obstacles that affect the Centipede's movement. They require three hits to be eliminated. Some mushrooms are poisoned by the Scorpion, causing the Centipede to dive straight down when touched.
+    Spider: An enemy that tries to distract the player, eliminates mushrooms it touches, and offers varying points depending on the distance when shot.
+    Flea: Appears when few mushrooms are left on the player's level, drops straight down, leaving a trail of mushrooms. Must be hit twice to be eliminated.
+    Scorpion: Appears after clearing a few screens, poisons mushrooms it touches, which affects the Centipede's movement. Eliminating the Scorpion before it poisons an entire row prevents the mushrooms from becoming poisoned.
+    Poisoned Mushrooms: Created by the Scorpion. Causes the Centipede to dive straight down toward the player when touched. Reverts to normal mushrooms when the player loses a wand.
+
+Scoring:
+    Points are earned by eliminating various creatures and mushrooms. Bonus wands are awarded every 10,000 points.
+
+Visuals:
+    The game features a 2D, pixelated aesthetic typical of the Atari 2600 era. Creatures and objects are represented by simple shapes and colors.
+
+Sounds:
+    Distinct sounds are associated with each creature, aiding in identifying threats without looking.
+
+Strategy Tips:
+    Creating a "corridor" of eliminated mushrooms can trap the Centipede for easy elimination.
+    Leaving mushrooms at the bottom can prevent the Flea from appearing too quickly.
+    Shooting Centipede heads is more valuable than shooting body segments.
+    
+    
+Please choose one of the following actions:
+ Nothing
+ Fire
+ Up
+ Right
+ Left
+ Down
+ 
+ 
+Next Action: 

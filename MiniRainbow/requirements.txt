@@ -1,0 +1,8 @@
+torch
+torchvision
+gymnasium
+gymnasium[atari]
+gymnasium[accept-rom-license]
+opencv-python
+pandas
+hydra-core

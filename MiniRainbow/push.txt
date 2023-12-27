@@ -1,0 +1,29 @@
+scp -r -P 16712 leon@0.tcp.ap.ngrok.io:/home/leon/Desktop/CZ4041/attempt_17/submission.csv /home/leon/Desktop/NTU/CZ4041/attempt_17/submission.csv
+
+
+ssh -p 19246 root@ssh4.vast.ai -L 8080:localhost:8080
+
+
+
+scp -r -P 40330 /home/leon/Desktop/Research/A-star/create/ATARI-LLM/DQN root@24.122.214.184:/root/DQN
+
+ssh -p 40330 root@24.122.214.184 -L 8080:localhost:8080
+
+
+ssh -p 42684 root@155.4.42.6 -L 8080:localhost:8080
+scp -r -P 42684 /home/leon/Desktop/Research/A-star/create/ATARI-LLM/DQN root@155.4.42.6:/root/DQN
+
+
+
+ssh -p 17988 leon@0.tcp.ap.ngrok.io
+scp -r -P 17988 /home/leon/Desktop/Research/A-star/create/ATARI-LLM/DQN leon@0.tcp.ap.ngrok.io:/home/leon/Desktop/atari-dqn-new
+
+
+ssh -p 14882 root@ssh4.vast.ai -L 8080:localhost:8080
+scp -r -P 14882 /home/leon/Desktop/Research/A-star/create/ATARI-LLM/DDQN root@ssh4.vast.ai:/root/ddqn
+
+
+
+
+ssh -p 16224 leon@0.tcp.ap.ngrok.io
+scp -r -P 16224 /home/leon/Desktop/Research/A-star/create/ATARI-LLM/DDQN-w-test leon@0.tcp.ap.ngrok.io:/home/leon/Desktop/atari-ddqn-baseline-2

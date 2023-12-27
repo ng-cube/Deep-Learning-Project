@@ -1,0 +1,9 @@
+gymnasium
+gymnasium[atari]
+gymnasium[Accept-Rom-License]
+gymnasium[other]
+git+https://github.com/huggingface/transformers
+opencv-python
+bitsandbytes 
+accelerate
+scikit-learn
